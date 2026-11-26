@@ -32,8 +32,7 @@ publishes the mics as a normal macOS input device, while AppleHDA keeps the spea
 | DSP firmware | SOF 2.2.0, IPC3, `sof-rpl.ri` |
 | macOS | Ventura 13.x (fill in your exact version), OpenCore 1.0.8 |
 
-![Sound settings with the DMIC as input, level meter active, and the HDEF audio controller (8086:51CA) in IORegistryExplorer](images/sound-input.png)
-
+![Sound settings with the DMIC as input, level meter active, and the HDEF audio controller (8086:51CA) in IORegistryExplorer](image.png)
 *Sound → Input with the built-in mic selected and the level meter moving. Right: the audio controller
 `HDEF@1F,3` (`pci8086,51ca`) in IORegistryExplorer.*
 
